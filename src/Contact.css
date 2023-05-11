@@ -1,0 +1,48 @@
+.Contactcard {
+  height: 25rem;
+  width: 35rem;
+  display: flex;
+  flex-direction: column;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px !important;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  margin: auto;
+  padding: 2rem;
+}
+
+.firstName {
+  margin-bottom: 2rem !important;
+}
+
+.lastName {
+  margin-bottom: 1rem !important;
+}
+
+.cardDiv {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contactCard {
+  display: flex;
+  height: 20rem;
+  width: 18rem;
+  flex-wrap: wrap;
+  padding: 2rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.insideDiv {
+  display: flex;
+  align-items: center;
+}
+
+.divContent {
+  font-size: 20px;
+  margin-left: 1rem;
+}
