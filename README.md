@@ -1,4 +1,4 @@
-**This repository contains the contact app management app and charts for the api’s given.
+**This repository contains the contact app management app and charts for the api’s given.**
 #CONTACT APP MANAGEMENT
 This app is done using react. Redux is used to store data on local. Used material ui to make it more user eye catching which is react component library. 
 Initially, this app show no contacts after inserting  new contact can see that card in the card. In future if user need to edit that contact information they can edit it and if they don’t need it anymore they can even delete it. 
