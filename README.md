@@ -1,70 +1,10 @@
-# Getting Started with Create React App
+This repository contains the contact app management app and charts for the api’s given.
+#CONTACT APP MANAGEMENT
+This app is done using react. Redux is used to store data on local. Used material ui to make it more user eye catching which is react component library. 
+Initially, this app show no contacts after inserting  new contact can see that card in the card. In future if user need to edit that contact information they can edit it and if they don’t need it anymore they can even delete it. 
+Used modal to for user interaction to put information of the contact as to avoid overlapping of the contact information card with the card where user is entering the details of the contacts.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#CHARTS
+React Leaflet is a library that allows you to create maps using Leaflet, a popular open-source JavaScript library for interactive maps. Using React Leaflet, you can easily create maps with various features such as markers, popups, and tooltips. In the context of COVID-19 data visualization, React Leaflet can be used to create a map with markers that indicate the total number of active, recovered cases and deaths in each country. This can help to provide a visual representation of the spread of the virus and its impact on different countries.
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Pie charts are a type of chart that display data in a circular graph, with each slice of the pie representing a portion of the whole. In the context of COVID-19 data visualization, a pie chart can be used to show the percentage of cases in different categories such as active, recovered, and deaths. This can help to provide a quick and easy-to-understand overview of the current state of the pandemic. Pie charts can be created using various charting libraries such as Chart.js or Recharts. 
